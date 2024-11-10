@@ -14,9 +14,9 @@ class ChessModel(nn.Module):
 
         # Initializing weights
         nn.init.kaiming_uniform_(self.conv1.weight, nonlinearity = 'relu')
-        nn.init.kaiming_normal_(self.conv2.weight, nonlinearity = 'relu')
+        nn.init.kaiming_uniform_(self.conv2.weight, nonlinearity = 'relu')
         nn.init.xavier_uniform_(self.fc1.weight)
-        nn.init.xavier_normal_(self.fc2.weight)
+        nn.init.xavier_uniform_(self.fc2.weight)
 
     def forward(self, x):
         x = self.relu(self.conv1(x))
