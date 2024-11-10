@@ -34,7 +34,7 @@ def create_input_for_nn(games):
             x.append(board_to_matrix(board))
             y.append(move.uci())
             board.push(move)
-            return np.array(x, dtype = np.float32), np.array(y)
+    return np.array(x, dtype = np.float32), np.array(y)
         
 def encode_moves(moves):
     move_to_int = {move: idx for idx, move in enumerate(set(moves))}
