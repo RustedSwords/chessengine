@@ -64,6 +64,6 @@ Adding a blunder detection algorithm can help the engine perform better.
 
 ### Training (Optional)
 
-If you want to train the model on a new dataset, you’ll need a PGN dataset and modify the `train.ipynb`. 
-Simple add your PGN datasets to `data/pgn`.
+If you want to train the model on a new dataset, you’ll need a PGN dataset and modify the `train.ipynb`. \
+Simply add your PGN datasets to `data/pgn`.\
 I used the data from [here](https://theweekinchess.com/twic).
