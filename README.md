@@ -1,4 +1,4 @@
-# Chess Engine :chess_pawn:
+# Chess Engine :chess_pawn: 
 ![](chess_game.gif)
 
 A deep learning-powered chess engine that uses a neural network model to predict the best moves in chess games. This project leverages PyTorch for model training and inference and can evaluate board positions and suggest legal moves. Currently the model is trained on 10157 games. If you have more memory then you can add more bigger data.\
