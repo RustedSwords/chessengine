@@ -6,7 +6,7 @@ def board_to_matrix(board: Board):
     # 12 channels for each distinct chess piece type.
     # 13th channel for indicating legal moves (possible destination squares).
     # Optionally, a 14th channel to highlight squares where moves can originate.
-    matrix = np.zeroes((13, 8, 8))
+    matrix = np.zeros((13, 8, 8))
     piece_map = board.piece_map()
 
     # Fill the first 12 channels of the 8x8 board with the positions of each piece type.
