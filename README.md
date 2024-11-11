@@ -3,7 +3,7 @@
 
 A deep learning-powered chess engine that uses a neural network model to predict the best moves in chess games. This project leverages PyTorch for model training and inference and can evaluate board positions and suggest legal moves. Currently the model is trained on 10157 games. If you have more memory then you can add more bigger data.\
 Unfortunately even with abundant SWAP memory my laptop kept crashing with bigger data; so the engine currently is not very powerful.\
-Adding a blunder detection algorithm can help the engine perform better.
+Adding a blunder detection algorithm or training on more blunders and more end game situations can help the engine perform better.
 
 ## Features
 
